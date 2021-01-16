@@ -36,7 +36,7 @@ Beer object example:
 
 [![CircleCI](https://circleci.com/gh/kawgh1/micro-beer-inventory-service.svg?style=svg)](https://circleci.com/gh/kawgh1/micro-beer-inventory-service)
   
-# MSSC Beer Inventory Service - Microservice
+# Micro Beer Inventory Service - Microservice
 
 ## Steps for Deconstruction into  Microservices
 #### 1. Dependency Management
@@ -69,14 +69,14 @@ docker run -it --rm \
   docker run -it --rm -p 8161:8161 -p 61616:61616 vromero/activemq-artemis
 
 After a few seconds you'll see in the output a block similar to:
+    
+_        _               _  
+/ \  ____| |_  ___ __  __(_) _____    
+/ _ \|  _ \ __|/ _ \  \/  | |/  __/    
+/ ___ \ | \/ |_/  __/ |\/| | |\___ \    
+/_/   \_\|   \__\____|_|  |_|_|/___ /    
+Apache ActiveMQ Artemis x.x.x    
   
-_        _               _
-/ \  ____| |_  ___ __  __(_) _____  
-/ _ \|  _ \ __|/ _ \  \/  | |/  __/  
-/ ___ \ | \/ |_/  __/ |\/| | |\___ \  
-/_/   \_\|   \__\____|_|  |_|_|/___ /  
-Apache ActiveMQ Artemis x.x.x  
-
 HH:mm:ss,SSS INFO  [...] AMQ101000: Starting ActiveMQ Artemis Server
 
 At this point you can open the web server port at 8161 and check the web console using the default username and password of artemis / simetraehcapa.
